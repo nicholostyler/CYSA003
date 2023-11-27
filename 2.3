@@ -1,21 +1,56 @@
 Common Vulnerability Scoring
 System (CVSS) interpretation
 - Attack vectors
+  - how the attacker got into your network
+  - n = network
+  - a = adjacent
+    - Network attack but is limited at the protocol level
+  - l = local
+  - p = physical
+    - hands on keyboard 
 - Attack complexity
+  - How much work does it take for an attacker to get into your network
+  - L = Low
+  - H = High
 - Privileges required
+  - Does it require them to be an administrator?
+  - L = Low
+  - H = High
+  - N = None
 - User interaction
+  - Does it require your employees to interact with the attacker to gain access
+  - N = None
+  - R = Required
 - Scope
+  - U = Unchanged
+  - C = Changed
+  - If it impacts resources beyong its security scope
 - Impact
+  - Critical = 9.0 - 10.0
+  - High = 7.0 - 8.9
+  - Medium = 4.0 - 6.9
+  - Low = 1.0 - 3.9
 o Confidentiality
+  - Low to High score. 
+  - High is the attakcer has full access to all resources
+  - Low the attacker has partial access to information. 
 o Integrity
+  - Trustworthiness of information. Whether the information has been tampared with or changed. Can an attacker alter the accuracy of logs?
 o Availability
+  - Can an attacker deny access to resources?
 • Validation
 - True/false positives
 - True/false negatives
 • Context awareness
 - Internal
+  - Insider threat
 - External
+  - Attacker from the outside
 - Isolated
+  - Isolated from a vlan that is only allowed on specific individuals.
 • Exploitability/weaponization
 • Asset value
+  - How sensitive is the information that was breached? 
 • Zero-day
+  - An attack that utilizes something that wasn't found by the developer.
+
