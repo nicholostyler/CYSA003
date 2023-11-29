@@ -1,0 +1,41 @@
+Mandatory Components
+Impact Score
+Exploitability Score
+Impact Sub Score
+
+Exploitability Metrics
+**Attack Vector (AV)** 
+Network (N) - Bound to the network stack. Can only come from external to your company through the internet.
+Network Adjacent (NA) - Bound to the network stack but only comes from protocol level.
+Local (L) - Needs hand on keyboard access.
+Physical (P) - Needs physical access to computer.
+**Attack Complexity (AC)**
+Low (L) - Attacker can expect repeatable success with this.
+High (H) - 
+Attacker must gather knowledge about environment. 
+Must prepare the target environment to exploit. 
+The attacker must inject themselves into logical network path.
+**Privileges Required (PR)**
+None (N) - Attacker does not need any credentials to exploit.
+Low (L) - Attacker just needs any user account
+High (H) - Attacker needs admin rights.
+**User Interaction (UI)**
+None (N) - Can be exploited with no interaction from user.
+Requried (R) - Successful exploitation requries user to interact with malware.
+**Scope**
+Unchanged (U) - Vulnerable component and the impact component are the same.
+Changed (C) - Exploited vulnerability can affect resources beyond the scope.
+
+Impact Metrics
+**Confidenality (C)**
+High (H) - Total lsos of confidentality resulting in all resources within the component to be in attackers hands.
+Low (L) - Some loss of confidenality. Access to some restricted information is obtained.
+None (N) - No data is lost.
+**Integrity (I)**
+High (H) - Total loss of interity, attacker is able to modify all files by the component.
+Low (L) - Modification of data is possible but attacker does not have control over modification.
+None (N) - No loss of integirty
+**Availability (A)**
+High (H) - Attacker is able to deny access to resources to impacted component
+Low (L) - Performance is reduced or there are some interruptions.
+None (N) - No impact to availability.
