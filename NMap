@@ -1,0 +1,22 @@
+**NMap Commands**
+Find IP Address with ipconfig
+To target machine use nmap ip address (ex nmap 192.168.1.19)
+  - It will show you the ports that are open
+
+SYN Scan
+nmap -sS 192.168.1.19
+
+What OS is being used?
+nmap -O 192.168.1.19
+
+UDP scan
+nmap -U 192.168.1.19
+
+TCP
+nmap -sT 192.168.1.19 (similar to default)
+
+Aggressive Scan
+nmap -A 192.168.1.19
+
+Specify Ports
+nmap 192.168.1.19 -p 53 (DNS)
