@@ -1,0 +1,7 @@
+1. Reconnaissance - Research, identify, select targets
+2. Weaponization - Pair remote access malware into a payload
+3. Delivery - Transmit to target (email attachment, usb drives, phishing)
+4. Exploitation - Once it is delivered, how is the weapon triggered
+5. Installation - The weapon installs a backdoor to maintain persistance
+6. Command & Control - How the computer communicates with the attackers server
+7. Actions on Objective - How the attacker achieves their goal.
